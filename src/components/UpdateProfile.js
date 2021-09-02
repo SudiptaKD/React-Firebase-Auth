@@ -59,7 +59,7 @@ const UpdateProfile = () => {
                             <Form.Control type ="password" ref ={passwordConfirmRef} placeholder="Leave blank to keep it same" />
                         </Form.Group>
                         <br/>
-                        <Button disabled={loading} className="w-100" type="submit">Update</Button>
+                        <Button disabled={loading} className="w-100" type="submit">Update Profile</Button>
                     </Form>
                 </Card.Body>
             </Card>
